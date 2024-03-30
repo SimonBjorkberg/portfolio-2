@@ -3,7 +3,6 @@ import hamburger from '../../../public/svgs/hamburger.svg'
 import { useState } from "react";
 
 export default function Navbar() {
-
     const [toggleMenu, setToggleMenu] = useState(false)
 
     return (
@@ -29,7 +28,7 @@ export default function Navbar() {
                 <h1 className="nav-title">Simon.Dev</h1>
                 <Image onClick={() => setToggleMenu(true)} className="hamburger" src={hamburger} alt="" />
             </div>
-            <div className={`${toggleMenu ? "hamburger-drawer-show" : "hamburger-drawer-hide"}`}>
+            <div className={`hamburger-drawer ${toggleMenu ? "hamburger-drawer-show" : "hamburger-drawer-hide"}`}>
                 <p onClick={() => setToggleMenu(false)} className="close-hamburger">X</p>
                 <ul>
                     <li>
