@@ -45,11 +45,11 @@ export default function Info() {
                     </ul>
                 </div>
                 <div className="ss-down-arrow">
-                    <Image className="w-8 mb-10" src={downArrow} alt="" />
+                    <Image className="w-8" src={downArrow} alt="" />
                 </div>
             </div>
             <div className="down-arrow">
-                <Image className="w-8 mb-10" src={downArrow} alt="" />
+                <Image className="w-8" src={downArrow} alt="" />
             </div>
         </section>
     )
