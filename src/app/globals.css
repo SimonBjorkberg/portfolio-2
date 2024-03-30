@@ -69,69 +69,8 @@ body {
   }
 }
 
-.hide {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-300px);
-  transition: all 1s ease;
-}
-
-.show {
-  opacity: 1;
-  transform: translateX(0);
-  filter: blur(0);
-}
-
 .bg-dot-grid {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20 px' height='20px' viewBox='0 0 23 23' fill='none'%3E%3Ccircle cx='22' cy='22' r='1' fill='rgba(115,115,115,0.3)' /%3E%3C/svg%3E%0A");
-}
-
-.scroller {
-  scroll-snap-type: y mandatory;
-}
-
-.scroller .section {
-  scroll-snap-align: start;
-}
-
-.project-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  max-width: 805px;
-  width: 90%;
-  height: 100%;
-
-  h1 {
-    font-size: 30px;
-    font-weight: 200;
-  }
-}
-
-.text-container {
-  font-weight: 100;
-  display: flex;
-  flex-direction: column;
-
-  h1 {
-    font-size: 30px;
-  }
-}
-
-.link-container {
-  margin: 20px 0px;
-  display: flex;
-  align-self: end;
-
-  .link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 10px;
-    width: 150px;
-    height: 50px;
-    border: solid 1px;
-  }
 }
 
 .info-links {
@@ -221,7 +160,7 @@ body {
 @media (min-width: 769px) {
   .info {
     justify-content: center;
-    margin: 150px 0;
+    margin: 100px 0;
   }
 
   .header-title {
@@ -231,7 +170,7 @@ body {
   }
 
   .tech-stack {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   .techs {
@@ -250,7 +189,7 @@ body {
 @media (max-width: 768px) {
   .info {
     justify-content: space-between;
-    margin: 100px 0;
+    margin: 65px 0;
     height: 55vh;
   }
 
@@ -270,12 +209,12 @@ body {
 
   .hero-info {
     width: 100%;
-    padding: 0 40px;
+    padding: 0 20px;
   }
 
   .tech-stack {
     width: 100%;
-    padding: 0 40px;
+    padding: 0 20px;
     margin-top: 40px;
     flex-direction: column;
   }
@@ -345,21 +284,9 @@ nav {
   color: #FE7F2D;
 }
 
-.ul>li>li:hover {
+.ul>li:hover {
   color: #FCCA46;
   cursor: pointer;
-}
-
-.bs-down-arrow {
-  width: 100%;
-  display: none;
-  justify-content: center;
-}
-
-.ss-down-arrow {
-  width: 100%;
-  display: none;
-  justify-content: center;
 }
 
 .info-background {
@@ -370,12 +297,6 @@ nav {
   width: 100vw;
   padding: 0;
 }
-
-.down-arrow {
-  margin-top: auto;
-  display: flex;
-}
-
 
 @media (min-width: 769px) {
   .big-screen-nav {
