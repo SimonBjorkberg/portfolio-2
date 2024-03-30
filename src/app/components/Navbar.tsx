@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav className="pixelify-sans-font">
             <div className="big-screen-nav">
-                <h1>Simon.Dev</h1>
+                <h1 className="nav-title">Simon.Dev</h1>
                 <ul className="ul">
                     <li>
                         Home
