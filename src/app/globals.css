@@ -193,7 +193,6 @@ body {
 }
 
 .tech-stack {
-  margin-top: 200px;
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -221,6 +220,7 @@ body {
 @media (min-width: 769px) {
   .info {
     justify-content: center;
+
   }
   .header-title {
     font-size: 60px;
@@ -228,6 +228,9 @@ body {
     max-width: 500px;
   }
 
+  .tech-stack {
+    margin-top: 100px;
+  }
   .techs {
     gap: 30px
   }
@@ -242,12 +245,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  .tech-stack {
-    margin-top: 35px
-  }
-
   .info {
-    margin-top: 110px;
+    justify-content: space-between;
+    margin-top: 100px;
   }
 
   .techs {
@@ -269,7 +269,6 @@ body {
   }
 
   .tech-stack {
-    margin-top: 100px;
     width: 90%;
     flex-direction: column;
   }
