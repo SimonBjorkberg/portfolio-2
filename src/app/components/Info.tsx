@@ -18,7 +18,7 @@ export default function Info() {
             <div className="info my-auto">
                 <div className="hero-info">
                     <h1>Front-End React <span>Developer</span></h1>
-                    <p>I'm Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming.</p>
+                    <p>I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming.</p>
                 </div>
                 <div className="tech-stack">
                     <p>
