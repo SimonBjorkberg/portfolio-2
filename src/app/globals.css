@@ -151,7 +151,7 @@ body {
   justify-content: center;
   width: 100vw;
   max-width: 1920px;
-  height: 80vh;
+  height: 100vh;
   max-height: 1080px;
 }
 
@@ -235,7 +235,7 @@ body {
 
 @media (max-width: 768px) {
   .tech-stack {
-    margin-top: 100px
+    margin-top: 60px
   }
 
   .techs {
