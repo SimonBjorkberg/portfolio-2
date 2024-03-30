@@ -17,14 +17,14 @@ export default function Info() {
         <section className="info-background section bg-dot-grid">
             <div className="info my-auto">
                 <div className="hero-info">
-                    <h1>Front-End React <span>Developer</span></h1>
-                    <p>I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming.</p>
+                    <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
+                    <p className="header-paragraph">I'm Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming.</p>
                 </div>
                 <div className="tech-stack">
-                    <p>
+                    <p className="tech-stack-paragraph">
                         Tech Stack:
                     </p>
-                    <ul>
+                    <ul className="techs">
                         {icons.length > 0 && icons.map((icon, i) => {
                             return <li key={i}><Image src={icon} alt="" /></li>
                         })}
