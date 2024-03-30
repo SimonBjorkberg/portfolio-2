@@ -18,35 +18,37 @@ export default function Info() {
     return (
         <section className="info-background bg-[#50343c] bg-dot-grid">
             <div className="info">
-                <div className="hero-info">
-                    <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
-                    <div className="header-paragraph">
-                        <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
-                    </div>
-                    <ul className="info-links gap-2 pt-5">
-                        <li className="">
-                            <Link href={"https://www.linkedin.com/in/simonbjorkberg/"} rel="noopener noreferrer" target="_blank">
-                            <svg height="36" viewBox="0 0 16 16" width="36" xmlns="http://www.w3.org/2000/svg" className="fill-[#FE7F2D] hover:fill-[#FCCA46] transition-all duration-200"><path d="m0 0h16v16h-16z" fill="none"/><path d="m14.815 0h-13.635c-.65 0-1.18.517-1.18 1.153v13.694c0 .638.53 1.153 1.18 1.153h13.636c.651 0 1.184-.515 1.184-1.153v-13.694c0-.636-.533-1.153-1.185-1.153zm-10.069 13.634h-2.375v-7.635h2.376v7.635zm-1.187-8.679c-.762 0-1.377-.617-1.377-1.377 0-.759.615-1.376 1.377-1.376.759 0 1.376.617 1.376 1.376 0 .761-.616 1.377-1.376 1.377zm10.074 8.679h-2.371v-3.712c0-.886-.017-2.025-1.233-2.025-1.235 0-1.423.964-1.423 1.96v3.778h-2.371v-7.636h2.274v1.043h.033c.317-.6 1.091-1.233 2.245-1.233 2.401 0 2.845 1.581 2.845 3.638v4.187z"/></svg>
+                <div className="flex flex-col justify-between">
+                    <div className="hero-info">
+                        <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
+                        <div className="header-paragraph">
+                            <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
+                        </div>
+                        <ul className="info-links gap-2 pt-5">
+                            <li className="">
+                                <Link href={"https://www.linkedin.com/in/simonbjorkberg/"} rel="noopener noreferrer" target="_blank">
+                                    <svg height="36" viewBox="0 0 16 16" width="36" xmlns="http://www.w3.org/2000/svg" className="fill-[#FE7F2D] hover:fill-[#FCCA46] transition-all duration-200"><path d="m0 0h16v16h-16z" fill="none" /><path d="m14.815 0h-13.635c-.65 0-1.18.517-1.18 1.153v13.694c0 .638.53 1.153 1.18 1.153h13.636c.651 0 1.184-.515 1.184-1.153v-13.694c0-.636-.533-1.153-1.185-1.153zm-10.069 13.634h-2.375v-7.635h2.376v7.635zm-1.187-8.679c-.762 0-1.377-.617-1.377-1.377 0-.759.615-1.376 1.377-1.376.759 0 1.376.617 1.376 1.376 0 .761-.616 1.377-1.376 1.377zm10.074 8.679h-2.371v-3.712c0-.886-.017-2.025-1.233-2.025-1.235 0-1.423.964-1.423 1.96v3.778h-2.371v-7.636h2.274v1.043h.033c.317-.6 1.091-1.233 2.245-1.233 2.401 0 2.845 1.581 2.845 3.638v4.187z" /></svg>
+                                </Link>
+                            </li>
+                            <Link href={"https://github.com/SimonBjorkberg?tab=repositories"} rel="noopener noreferrer" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="hover:stroke-[#FCCA46] stroke-[#FE7F2D] transition-all duration-200"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                             </Link>
-                        </li>
-                        <Link href={"https://github.com/SimonBjorkberg?tab=repositories"} rel="noopener noreferrer" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="hover:stroke-[#FCCA46] stroke-[#FE7F2D] transition-all duration-200"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                        </Link>
-                    </ul>
+                        </ul>
+                    </div>
+                    <div className="tech-stack">
+                        <p className="tech-stack-paragraph">
+                            Tech Stack:
+                        </p>
+                        <ul className="techs">
+                            {icons.length > 0 && icons.map((icon, i) => {
+                                return <li key={i}><Image src={icon} alt="" /></li>
+                            })}
+                        </ul>
+                    </div>
                 </div>
-                <div className="tech-stack">
-                    <p className="tech-stack-paragraph">
-                        Tech Stack:
-                    </p>
-                    <ul className="techs">
-                        {icons.length > 0 && icons.map((icon, i) => {
-                            return <li key={i}><Image src={icon} alt="" /></li>
-                        })}
-                    </ul>
-                </div>
-                <div className="ss-down-arrow">
-                    <Image className="w-8" src={downArrow} alt="" />
-                </div>
+            </div>
+            <div className="ss-down-arrow">
+                <Image className="w-8" src={downArrow} alt="" />
             </div>
             <div className="down-arrow">
                 <Image className="w-8" src={downArrow} alt="" />
