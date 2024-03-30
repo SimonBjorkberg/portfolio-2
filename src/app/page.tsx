@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className={`overflow-x-hidden pixelify-sans-font`}>
+      <main className={`pixelify-sans-font`}>
         <Info />
         <Script src="/js/index.js" />
       </main>
