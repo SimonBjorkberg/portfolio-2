@@ -8,6 +8,7 @@ import HtmlIcon from '../../../public/svgs/file-type-html.svg'
 import gitIcon from '../../../public/svgs/git.svg'
 import reactIcon from '../../../public/svgs/react.svg'
 import downArrow from '../../../public/svgs/arrow-down-1.svg'
+import Typewriter from "./Typewriter";
 
 export default function Info() {
 
@@ -18,7 +19,7 @@ export default function Info() {
             <div className="info my-auto">
                 <div className="hero-info">
                     <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
-                    <p className="header-paragraph">I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming.</p>
+                    <Typewriter string={"I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming."} />
                 </div>
                 <div className="tech-stack">
                     <p className="tech-stack-paragraph">

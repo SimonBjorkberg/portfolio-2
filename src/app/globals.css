@@ -385,6 +385,18 @@ body {
   font-size: 18px;
 }
 
+@media (min-width: 600px) {
+  .header-paragraph {
+    height: 74px;
+  }
+}
+
+@media (min-width: 420px) {
+  .header-paragraph {
+    height: 101px;
+  }
+}
+
 .hero-info {
   display: flex;
   flex-direction: column;
