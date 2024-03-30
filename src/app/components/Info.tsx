@@ -15,7 +15,7 @@ export default function Info() {
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
 
     return (
-        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-40 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
+        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-12 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
             <div className="flex flex-col gap-20 md:pt-20 w-[97%] md:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
                     <h1 className="md:text-[60px] md:max-w-[500px] md:leading-[50px] text-[45px] leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
@@ -23,11 +23,11 @@ export default function Info() {
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row self-center w-full">
+                <div className="flex flex-col self-center w-full md:w-fit">
                     <p className="flex items-center mr-[50px] pb-3">
                         Tech Stack:
                     </p>
-                    <ul className="w-fit flex flex-wrap md:grid md:grid-cols-6 gap-5">
+                    <ul className="w-fit md:flex md:flex-wrap grid grid-cols-6 gap-5">
                         {icons && icons.map((icon, i) => {
                             return <li className="flex w-[36px] h-[36px]" key={i}><Image src={icon} alt="icon" /></li>
                         })}
