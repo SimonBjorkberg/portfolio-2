@@ -14,7 +14,7 @@ export default function Info() {
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
 
     return (
-        <section className="info-background section bg-dot-grid">
+        <section className="info-background section">
             <div className="info my-auto">
                 <div className="hero-info">
                     <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>

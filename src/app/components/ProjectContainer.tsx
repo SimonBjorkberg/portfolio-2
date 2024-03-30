@@ -27,7 +27,7 @@ interface Props {
 export default function ProjectContainer({ project, setSelectedProject, setToggle }: Props) {
 
     return (
-        <section className={`section hide`}>
+        <section className={`section hide bg-[#233D4D]`}>
             <div className={`project-container`}>
                 <div className="text-container">
                     <h1 onClick={() => { setSelectedProject(project); setToggle(true) }} className="project-title">{project.title}</h1>
