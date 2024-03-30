@@ -401,26 +401,26 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  padding: 0px 20px;
+  padding: 0px 0px;
 
 }
 
 .tech-stack {
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   align-self: center;
 }
 
 .tech-stack-paragraph {
-  margin-right: 40px;
   display: flex;
   align-items: center;
+  margin-right: 50px;
 }
 
 .techs {
   display: flex;
-  gap: 20px;
+  width: fit-content;
   flex-wrap: wrap;
 
   >li {
@@ -437,9 +437,26 @@ body {
     line-height: 50px;
     max-width: 500px;
   }
+  .techs {
+    gap: 30px
+  }
+}
+
+@media (max-width: 444px) {
+  .techs {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
+  .tech-stack {
+    margin-top: 100px
+  }
+  .techs {
+    gap: 10px;
+  }
   .header-title {
     font-size: 45px;
     line-height: 40px;
@@ -451,13 +468,12 @@ body {
   }
 
   .hero-info {
-    width: 80%;
+    width: 90%;
   }
 
   .tech-stack {
-    width: 80%;
+    width: 90%;
     flex-direction: column;
-    padding: 0px 20px;
   }
 }
 
