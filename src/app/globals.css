@@ -309,6 +309,7 @@ nav {
 
   .info-background {
     height: 100vh;
+    min-height: 650px;
   }
 
   .small-screen-nav {
