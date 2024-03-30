@@ -310,6 +310,7 @@ nav {
   .info-background {
     height: 100vh;
     min-height: 650px;
+    background-color: red;
   }
 
   .small-screen-nav {
@@ -321,6 +322,7 @@ nav {
   }
   .info {
     min-height: 650px;
+    background-color: green;
   }
 }
 
