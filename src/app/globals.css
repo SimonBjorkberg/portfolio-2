@@ -342,6 +342,14 @@ nav {
   justify-content: center;
 }
 
+.info-background {
+  justify-content: start;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+
+
 @media (min-width: 769px) {
   .big-screen-nav {
     display: flex;
@@ -357,6 +365,9 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .info-background {
+    height: 80vh;
+  }
   .big-screen-nav {
     display: none;
   }
@@ -425,14 +436,6 @@ nav {
   margin: 10px 16px;
   color: #FCCA46;
 }
-
-.info-background {
-  justify-content: start;
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
-}
-
 .project-title {
   position: relative;
   width: fit-content;
