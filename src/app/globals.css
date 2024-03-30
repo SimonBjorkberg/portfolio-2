@@ -349,6 +349,11 @@ nav {
   padding: 0;
 }
 
+.down-arrow {
+  margin-top: 70px;
+  display: flex;
+}
+
 
 @media (min-width: 769px) {
   .big-screen-nav {
@@ -376,7 +381,7 @@ nav {
     display: flex;
   }
 
-  .ss-down-arrow {
+  .down-arrow {
     margin-top: 70px;
     display: flex;
   }

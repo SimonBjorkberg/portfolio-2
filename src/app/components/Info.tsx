@@ -37,7 +37,7 @@ export default function Info() {
                     <Image className="w-8 mb-10" src={downArrow} alt="" />
                 </div>
             </div>
-            <div className="bs-down-arrow">
+            <div className="down-arrow">
                 <Image className="w-8 mb-10" src={downArrow} alt="" />
             </div>
         </section>
