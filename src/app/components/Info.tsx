@@ -7,7 +7,6 @@ import CSSIcon from '../../../public/svgs/file-type-css.svg'
 import HtmlIcon from '../../../public/svgs/file-type-html.svg'
 import gitIcon from '../../../public/svgs/git.svg'
 import reactIcon from '../../../public/svgs/react.svg'
-import downArrow from '../../../public/svgs/arrow-down-1.svg'
 import NodeIcon from '../../../public/svgs/node-js.svg'
 import mongoDBIcon from '../../../public/svgs/mongodb.svg'
 import { ReactTyped } from "react-typed";
