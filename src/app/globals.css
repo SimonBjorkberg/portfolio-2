@@ -389,7 +389,7 @@ nav {
 
 @media (max-width: 768px) {
   .info-background {
-    height: 90vh;
+    height: 100vh;
   }
 
   .big-screen-nav {
