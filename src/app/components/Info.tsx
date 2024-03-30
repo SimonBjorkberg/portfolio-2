@@ -8,12 +8,14 @@ import HtmlIcon from '../../../public/svgs/file-type-html.svg'
 import gitIcon from '../../../public/svgs/git.svg'
 import reactIcon from '../../../public/svgs/react.svg'
 import downArrow from '../../../public/svgs/arrow-down-1.svg'
+import NodeIcon from '../../../public/svgs/node-js.svg'
+import mongoDBIcon from '../../../public/svgs/mongodb.svg'
 import { ReactTyped } from "react-typed";
 import Link from "next/link";
 
 export default function Info() {
 
-    const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
+    const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon, NodeIcon, mongoDBIcon]
 
     return (
         <section className="info-background bg-[#50343c] bg-dot-grid">
@@ -46,12 +48,6 @@ export default function Info() {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div className="ss-down-arrow">
-                <Image className="w-8" src={downArrow} alt="" />
-            </div>
-            <div className="down-arrow">
-                <Image className="w-8" src={downArrow} alt="" />
             </div>
         </section>
     )
