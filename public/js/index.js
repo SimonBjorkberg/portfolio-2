@@ -14,3 +14,7 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hide');
 hiddenElements.forEach((elem) => observer.observe(elem))
+
+
+let vh = window.innerHeight * 0.01
+document.documentElement.style.setProperty('--vh', `${vh}px`)
