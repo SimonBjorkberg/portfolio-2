@@ -146,6 +146,7 @@ body {
     height: 36px;
     transition: all .5s ease;
   }
+
   >li:hover {
     cursor: pointer;
   }
@@ -222,6 +223,7 @@ body {
     justify-content: center;
 
   }
+
   .header-title {
     font-size: 60px;
     line-height: 50px;
@@ -231,6 +233,7 @@ body {
   .tech-stack {
     margin-top: 100px;
   }
+
   .techs {
     gap: 30px
   }
@@ -316,31 +319,32 @@ nav {
   justify-content: space-between;
   width: 100%;
   max-width: 1080px;
+}
 
-  .nav-title {
-    display: flex;
-    height: fit-content;
-    width: 100%;
-    font-size: 3vh;
-    color: #FE7F2D;
-  }
+.nav-title {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  font-size: 3vh;
+  color: #FE7F2D;
+}
 
-  .ul {
-    display: flex;
-    height: fit-content;
-    gap: 20px;
+.ul {
+  display: flex;
+  height: fit-content;
+  gap: 20px;
 
-    li {
-      font-size: 18px;
-      transition: all .5s ease;
-      color: #FE7F2D;
-    }
+}
 
-    li:hover {
-      color: #FCCA46;
-      cursor: pointer;
-    }
-  }
+.ul>li {
+  font-size: 18px;
+  transition: all .5s ease;
+  color: #FE7F2D;
+}
+
+.ul>li>li:hover {
+  color: #FCCA46;
+  cursor: pointer;
 }
 
 .bs-down-arrow {
@@ -374,6 +378,7 @@ nav {
   .big-screen-nav {
     display: flex;
   }
+
   .info-background {
     height: 100vh;
   }
