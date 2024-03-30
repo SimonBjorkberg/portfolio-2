@@ -18,7 +18,7 @@ export default function Info() {
 
     return (
         <section className="info-background bg-[#50343c] bg-dot-grid">
-            <div className="info my-auto">
+            <div className="info">
                 <div className="hero-info">
                     <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="header-paragraph">

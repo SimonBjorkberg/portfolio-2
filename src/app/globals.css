@@ -155,7 +155,6 @@ body {
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100vw;
   max-width: 1920px;
   height: 100vh;
@@ -221,6 +220,9 @@ body {
 }
 
 @media (min-width: 769px) {
+  .info {
+    justify-content: center;
+  }
   .header-title {
     font-size: 60px;
     line-height: 50px;
@@ -245,6 +247,10 @@ body {
     margin-top: 35px
   }
 
+  .info {
+    margin-top: 110px;
+  }
+
   .techs {
     gap: 10px;
   }
@@ -264,6 +270,7 @@ body {
   }
 
   .tech-stack {
+    margin-top: 100px;
     width: 90%;
     flex-direction: column;
   }
