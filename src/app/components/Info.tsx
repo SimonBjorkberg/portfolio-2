@@ -20,7 +20,7 @@ export default function Info() {
                 <div className="hero-info">
                     <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="header-paragraph">
-                        <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming"]} typeSpeed={20} />
+                        <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming."]} typeSpeed={20} />
                     </div>
                 </div>
                 <div className="tech-stack">
@@ -33,8 +33,11 @@ export default function Info() {
                         })}
                     </ul>
                 </div>
+                <div className="ss-down-arrow">
+                    <Image className="w-8 mb-10" src={downArrow} alt="" />
+                </div>
             </div>
-            <div className="down-arrow">
+            <div className="bs-down-arrow">
                 <Image className="w-8 mb-10" src={downArrow} alt="" />
             </div>
         </section>
