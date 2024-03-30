@@ -19,7 +19,7 @@ export default function Info() {
             <div className="flex flex-col gap-20 md:pt-20 w-[97%] md:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
                     <h1 className="md:text-[60px] md:max-w-[500px] md:leading-[50px] text-[45px] leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
-                    <div className="pt-10 max-w-[500px] text-[18px] ">
+                    <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
                     </div>
                 </div>
