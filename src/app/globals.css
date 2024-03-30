@@ -451,90 +451,90 @@ body {
 
 nav {
   position: absolute;
-  z-index: 10;
   display: flex;
+  z-index: 10;
   width: 100%;
   padding: .5vw 2vw;
   justify-content: center;
+}
 
-  .small-screen-nav {
-    display: none;
-    align-items: center;
-    justify-content: space-between;
+.small-screen-nav {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1080px;
+
+  .nav-title {
+    display: flex;
+    height: fit-content;
     width: 100%;
-    max-width: 1080px;
+    font-size: 3vh;
+    color: #FE7F2D;
+  }
 
-    .nav-title {
-      display: flex;
-      height: fit-content;
-      width: 100%;
-      font-size: 3vh;
+  .hamburger {
+    display: flex;
+    color: #FE7F2D;
+    width: 24px;
+    margin-right: 12px;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+}
+
+.big-screen-nav {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1080px;
+
+  .nav-title {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    font-size: 3vh;
+    color: #FE7F2D;
+  }
+
+  .ul {
+    display: flex;
+    height: fit-content;
+    gap: 20px;
+
+    li {
+      font-size: 18px;
+      transition: all .5s ease;
       color: #FE7F2D;
     }
 
-    .hamburger {
-      display: flex;
-      color: #FE7F2D;
-      width: 24px;
-      margin-right: 12px;
-    }
-
-    .hamburger:hover {
+    li:hover {
+      color: #FCCA46;
       cursor: pointer;
     }
   }
+}
 
+@media (min-width: 769px) {
+  .big-screen-nav {
+    display: flex;
+  }
+
+  .small-screen-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   .big-screen-nav {
     display: none;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1080px;
-
-    .nav-title {
-      display: flex;
-      height: fit-content;
-      width: 100%;
-      font-size: 3vh;
-      color: #FE7F2D;
-    }
-
-    .ul {
-      display: flex;
-      height: fit-content;
-      gap: 20px;
-
-      li {
-        font-size: 18px;
-        transition: all .5s ease;
-        color: #FE7F2D;
-      }
-
-      li:hover {
-        color: #FCCA46;
-        cursor: pointer;
-      }
-    }
   }
 
-  @media (min-width: 769px) {
-    .big-screen-nav {
-      display: flex;
-    }
-
-    .small-screen-nav {
-      display: none;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .big-screen-nav {
-      display: none;
-    }
-
-    .small-screen-nav {
-      display: flex;
-    }
+  .small-screen-nav {
+    display: flex;
   }
 }
 

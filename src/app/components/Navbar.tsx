@@ -26,7 +26,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="small-screen-nav">
-                <h1>Simon.Dev</h1>
+                <h1 className="nav-title">Simon.Dev</h1>
                 <Image onClick={() => setToggleMenu(true)} className="hamburger" src={hamburger} alt="" />
             </div>
             <div className={`${toggleMenu ? "hamburger-drawer-show" : "hamburger-drawer-hide"}`}>
@@ -45,7 +45,7 @@ export default function Navbar() {
                         Contact
                     </li>
                 </ul>
-    </div>
+            </div>
         </nav>
     )
 }
