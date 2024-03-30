@@ -8,6 +8,8 @@ import HtmlIcon from '../../../public/svgs/file-type-html.svg'
 import gitIcon from '../../../public/svgs/git.svg'
 import reactIcon from '../../../public/svgs/react.svg'
 import downArrow from '../../../public/svgs/arrow-down-1.svg'
+import githubIcon from '../../../public/svgs/github.svg'
+import linkedinIcon from '../../../public/svgs/linkedin.svg'
 import { ReactTyped } from "react-typed";
 
 export default function Info() {
@@ -15,13 +17,21 @@ export default function Info() {
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
 
     return (
-        <section className="info-background section bg-[#50343c] bg-dot-grid">
+        <section className="info-background bg-[#50343c] bg-dot-grid">
             <div className="info my-auto">
                 <div className="hero-info">
                     <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="header-paragraph">
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest for all things related to Programming."]} typeSpeed={20} />
                     </div>
+                    <ul className="info-links gap-2 pt-5">
+                        <li className="rounded-md">
+                            <Image className="w-[110%]" src={linkedinIcon} alt="" />
+                        </li>
+                        <li className="rounded-full">
+                            <Image className="w-[110%]" src={githubIcon} alt="" />
+                        </li>
+                    </ul>
                 </div>
                 <div className="tech-stack">
                     <p className="tech-stack-paragraph">

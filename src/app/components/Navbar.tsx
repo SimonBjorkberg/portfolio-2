@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <nav className="pixelify-sans-font">
             <div className="big-screen-nav">
-                <h1 className="nav-title">Simon.Dev</h1>
+                <h1 className="nav-title">Simon.dev</h1>
                 <ul className="ul">
                     <li>
                         Home
@@ -25,7 +25,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="small-screen-nav">
-                <h1 className="nav-title">Simon.Dev</h1>
+                <h1 className="nav-title">Simon.dev</h1>
                 <Image onClick={() => setToggleMenu(true)} className="hamburger" src={hamburger} alt="" />
             </div>
             <div className={`hamburger-drawer ${toggleMenu ? "hamburger-drawer-show" : "hamburger-drawer-hide"}`}>
