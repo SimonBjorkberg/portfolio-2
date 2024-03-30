@@ -564,6 +564,9 @@ nav {
   .small-screen-nav {
     display: flex;
   }
+  .down-arrow {
+    margin-bottom: 80px;
+  }
 }
 
 .hamburger-drawer-hide {
