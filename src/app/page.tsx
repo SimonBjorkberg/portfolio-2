@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 export default function Home() {
 
   return (
-    <main className={`pixelify-sans-font overflow-x-hidden h-fit`}>
+    <main className={`pixelify-sans-font overflow-x-hidden`}>
       <Navbar />
         <Info />
         <Script src="/js/index.js" />
