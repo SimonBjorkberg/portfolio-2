@@ -366,7 +366,7 @@ nav {
 
 @media (max-width: 768px) {
   .info-background {
-    height: 80vh;
+    height: 90vh;
   }
   .big-screen-nav {
     display: none;
