@@ -20,7 +20,7 @@ export default function Info() {
     return (
         <section className="info-background bg-[#50343c] bg-dot-grid">
             <div className="info">
-                <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between h-full">
                     <div className="hero-info">
                         <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
                         <div className="header-paragraph">
