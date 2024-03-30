@@ -26,7 +26,7 @@ export default function Navbar() {
             </div>
             <div className="flex md:hidden items-center justify-between w-full max-w-[1080px]">
                 <h1 className="flex h-fit w-full text-2xl text-[#FE7F2D]">Simon.dev</h1>
-                <Image onClick={() => setToggleMenu(true)} className="hamburger" src={hamburger} alt="" />
+                <Image onClick={() => setToggleMenu(true)} className="hover:cursor-pointer" src={hamburger} alt="" />
             </div>
             <div className={`flex absolute w-full right-0 top-0 bg-[#50343c] border-b border-[#FCCA46] transition-all duration-1000 ease-in-out ${toggleMenu ? "translate-y-0 blur-0 shadow-md shadow-[#FCCA46]" : "translate-y-[-300px] blur-sm"}`}>
                 <p onClick={() => setToggleMenu(false)} className="absolute top-0 right-0 text-xl w-fit h-fit my-[10px] mx-4 text-[#FCCA46] hover:cursor-pointer">X</p>
