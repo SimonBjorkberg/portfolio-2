@@ -20,7 +20,7 @@ export default function Info() {
     return (
         <section className="info-background bg-[#50343c] bg-dot-grid">
             <div className="info">
-                <div className="flex flex-col justify-between h-full">
+                <div className="flex flex-col h-full">
                     <div className="hero-info">
                         <h1 className="header-title">Front-End React <span className="breathing-title">Developer</span></h1>
                         <div className="header-paragraph">
@@ -42,13 +42,14 @@ export default function Info() {
                             Tech Stack:
                         </p>
                         <ul className="techs">
-                            {icons.length > 0 && icons.map((icon, i) => {
-                                return <li key={i}><Image src={icon} alt="" /></li>
+                            {icons && icons.map((icon, i) => {
+                                return <li key={i}><Image src={icon} alt="icon" /></li>
                             })}
                         </ul>
                     </div>
                 </div>
             </div>
+            <svg fill="none" stroke="#FE7F2D" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 mb-28"><path d="m11.9995 16.8001c-.7 0-1.4-.27-1.93-.8l-6.51997-6.51996c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l6.51997 6.51996c.48.48 1.26.48 1.74 0l6.52-6.51996c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-6.52 6.51996c-.53.53-1.23.8-1.93.8z" fill="#292d32" /></svg>
         </section>
     )
 }

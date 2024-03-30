@@ -159,8 +159,11 @@ body {
 
 @media (min-width: 769px) {
   .info {
-    justify-content: center;
     margin: 100px 0;
+
+    >div {
+      justify-content: center;
+    }
   }
 
   .header-title {
@@ -188,9 +191,12 @@ body {
 
 @media (max-width: 768px) {
   .info {
-    justify-content: space-between;
-    margin: 65px 0;
+    margin: 65px 0 0 0;
     height: 55vh;
+
+    >div {
+      justify-content: space-between;
+    }
   }
 
   .techs {

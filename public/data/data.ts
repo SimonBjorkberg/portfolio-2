@@ -14,7 +14,7 @@ import newforumInfoOne from '../images/newforumInfoOne.png'
 import portfolioInfoOne from '../images/portfolioInfoOne.png'
 
 
-const data = {
+export const data = {
     projects: [
         {
             id: "portfolio",
@@ -145,5 +145,3 @@ const data = {
     ],
     technologoies: ["React", "Next.JS", "TypeScript", "MongoDB", "Node.jS", "HBS", "Express", "JWT", "Rest API", "Socket.IO", "SCSS", "TailwindCSS", "JavaScript", "CSS", "HTML", "Axios", "Mongoose", "Cloudinary"],
 }
-
-export default data;
