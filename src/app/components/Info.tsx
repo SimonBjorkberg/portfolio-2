@@ -17,7 +17,7 @@ export default function Info() {
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon, NodeIcon, mongoDBIcon]
 
     return (
-        <section className="bg-[#50343c] bg-dot-grid h-dvh content-center px-6 md:px-0">
+        <section className="bg-[#50343c] bg-dot-grid h-dvh content-start mt-14 px-4 md:px-0">
             <div className="flex flex-col justify-between h-[60%]">
                 <div className="flex flex-col items-start self-center p-0">
                     <h1 className="md:text-[60px] md:max-w-[500px] md:leading-[50px] text-[45px] leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
