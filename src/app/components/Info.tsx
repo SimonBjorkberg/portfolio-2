@@ -15,10 +15,10 @@ export default function Info() {
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
 
     return (
-        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-12 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
-            <div className="flex flex-col gap-20 md:pt-20 w-[97%] md:w-fit">
+        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
+            <div className="flex flex-col gap-20 md:pt-20 w-[97%] sm:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
-                    <h1 className="md:text-[60px] md:max-w-[500px] md:leading-[50px] text-[45px] leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
+                    <h1 className="sm:max-w-[500px] md:leading-[50px] title-font leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
                     </div>
@@ -27,14 +27,14 @@ export default function Info() {
                     <p className="flex items-center mr-[50px] pb-3">
                         Tech Stack:
                     </p>
-                    <ul className="w-fit md:flex md:flex-wrap grid grid-cols-6 gap-5">
+                    <ul className="w-fit sm:flex sm:flex-wrap grid grid-cols-6 gap-5">
                         {icons && icons.map((icon, i) => {
                             return <li className="flex w-[36px] h-[36px]" key={i}><Image src={icon} alt="icon" /></li>
                         })}
                     </ul>
                 </div>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-10 pt-10">
                 <ul className="flex w-fit self-center flex-wrap gap-10">
                     <Link href={"https://www.linkedin.com/in/simonbjorkberg/"} rel="noopener noreferrer" target="_blank">
                         <svg height="36" viewBox="0 0 16 16" width="36" xmlns="http://www.w3.org/2000/svg" className="fill-[#FE7F2D] hover:fill-[#FCCA46] transition-all duration-200"><path d="m0 0h16v16h-16z" fill="none" /><path d="m14.815 0h-13.635c-.65 0-1.18.517-1.18 1.153v13.694c0 .638.53 1.153 1.18 1.153h13.636c.651 0 1.184-.515 1.184-1.153v-13.694c0-.636-.533-1.153-1.185-1.153zm-10.069 13.634h-2.375v-7.635h2.376v7.635zm-1.187-8.679c-.762 0-1.377-.617-1.377-1.377 0-.759.615-1.376 1.377-1.376.759 0 1.376.617 1.376 1.376 0 .761-.616 1.377-1.376 1.377zm10.074 8.679h-2.371v-3.712c0-.886-.017-2.025-1.233-2.025-1.235 0-1.423.964-1.423 1.96v3.778h-2.371v-7.636h2.274v1.043h.033c.317-.6 1.091-1.233 2.245-1.233 2.401 0 2.845 1.581 2.845 3.638v4.187z" /></svg>

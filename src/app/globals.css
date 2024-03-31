@@ -84,3 +84,7 @@ html {
   animation: breathing 3s infinite alternate;
   animation-delay: 2s;
 }
+
+.title-font {
+  font-size: clamp(2.8125rem, 2.261rem + 2.2059vw, 3.75rem);
+}
