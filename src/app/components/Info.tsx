@@ -25,7 +25,7 @@ export default function Info() {
     })
 
     return (
-        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between snap-start">
+        <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between snap-start">
             <div className="flex flex-col gap-20 md:pt-20 w-[97%] sm:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
                     <h1 className="md:leading-[50px] title-font leading-[40px] sm:max-w-[500px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
