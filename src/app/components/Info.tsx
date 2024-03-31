@@ -21,19 +21,19 @@ export default function Info() {
             techStack.forEach((elem) => {
                 elem.classList.add('show-tech')
             })
-        }, 3000);
+        }, 1700);
     })
 
     return (
-        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
+        <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between snap-start">
             <div className="flex flex-col gap-20 md:pt-20 w-[97%] sm:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
-                    <h1 className="sm:max-w-[500px] md:leading-[50px] title-font leading-[40px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
+                    <h1 className="md:leading-[50px] title-font leading-[40px] sm:max-w-[500px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
-                        <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={20} />
+                        <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={10} />
                     </div>
                 </div>
-                <div className="flex flex-col self-center w-full md:w-fit">
+                <div className="flex flex-col sm:max-w-[500px] max-w-[400px]">
                     <p className="flex items-center mr-[50px] pb-3 icon hide-p">
                         Tech Stack:
                     </p>
