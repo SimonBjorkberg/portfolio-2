@@ -9,10 +9,20 @@ import gitIcon from '../../../public/svgs/git.svg'
 import reactIcon from '../../../public/svgs/react.svg'
 import { ReactTyped } from "react-typed";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Info() {
 
     const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon]
+
+    useEffect(() => {
+        setTimeout(() => {
+            const techStack = document.querySelectorAll(".icon")
+            techStack.forEach((elem) => {
+                elem.classList.add('show-tech')
+            })
+        }, 3000);
+    })
 
     return (
         <section className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between">
@@ -24,12 +34,12 @@ export default function Info() {
                     </div>
                 </div>
                 <div className="flex flex-col self-center w-full md:w-fit">
-                    <p className="flex items-center mr-[50px] pb-3">
+                    <p className="flex items-center mr-[50px] pb-3 icon hide-p">
                         Tech Stack:
                     </p>
-                    <ul className="w-fit sm:flex sm:flex-wrap grid grid-cols-6 gap-5">
+                    <ul id="this" className="w-fit sm:flex sm:flex-wrap grid grid-cols-6 gap-5 tech-icons">
                         {icons && icons.map((icon, i) => {
-                            return <li className="flex w-[36px] h-[36px]" key={i}><Image src={icon} alt="icon" /></li>
+                            return <li className="flex w-[36px] h-[36px] icon hide-tech" key={i}><Image src={icon} alt="icon" /></li>
                         })}
                     </ul>
                 </div>
