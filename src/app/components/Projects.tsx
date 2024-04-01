@@ -24,8 +24,8 @@ export default function Projects() {
                             <p className="text-lg pt-2 px-2 md:px-0 md:pt-0 font-bold pixelify-sans-font text-[#FCCA46]">{project.title}</p>
                             <p className="w-full px-2 overflow-hidden text-left font-light text-neutral-500">{project.description}</p>
                             <ul className="flex gap-2 p-2">
-                                {project.techs?.map((tech) => {
-                                    return <Image className="w-5 h-5 rounded-sm" src={tech} alt="" />
+                                {project.techs?.map((tech, i) => {
+                                    return <Image key={i} className="w-5 h-5 rounded-sm" src={tech} alt="" />
                                 })}
                             </ul>
                         </div>)
