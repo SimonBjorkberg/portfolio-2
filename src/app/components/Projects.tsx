@@ -19,11 +19,11 @@ export default function Projects() {
             </div>
             <main className="max-w-[1080px] flex items-center justify-center flex-col font-sans">
                 <h1 className="projects-title-font mb-2 md:mb-10 pixelify-sans-font">Projects</h1>
-                <div className="grid md:grid-cols-3 sm:grid-cols-2 md:gap-2 gap-1 px-1">
+                <div className="grid md:grid-cols-3 grid-cols-2 md:gap-2 gap-1 px-1">
                     {data.projects.map((project, i) => {
-                        return (<div key={i} className={`md:max-w-[250px] md:rounded-md md:p-5 h-[100px] sm:h-[130px] md:h-[220px] flex flex-col bg-[#121f27] hover:bg-[#172530] hover:cursor-pointer transition-all duration-100 justify-between sm:justify-start md:justify-between`}>
+                        return (<div key={i} className={`md:max-w-[250px] md:rounded-md md:p-5 h-[120px] sm:h-[130px] md:h-[220px] flex flex-col bg-[#121f27] hover:bg-[#172530] hover:cursor-pointer transition-all duration-100 justify-between sm:justify-start md:justify-between`}>
                             <div className="flex justify-between">
-                                <p className="sm:text-lg px-2 md:px-0 font-bold pixelify-sans-font text-[#FCCA46]">{project.title}</p>
+                                <p className="text-lg px-2 md:px-0 font-bold pixelify-sans-font text-[#FCCA46]">{project.title}</p>
                                 <ul className="hidden sm:flex gap-2 p-2 md:hidden">
                                     {project.techs?.map((tech, i) => {
                                         return <Image key={i} className="w-5 h-5 rounded-sm" src={tech} alt="" />
