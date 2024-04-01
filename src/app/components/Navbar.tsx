@@ -26,11 +26,11 @@ export default function Navbar() {
                     <li onClick={scrollToHome} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         Home
                     </li>
-                    <li onClick={scrollToAbout} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
-                        About
-                    </li>
                     <li onClick={scrollToProjects} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         Projects
+                    </li>
+                    <li onClick={scrollToAbout} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
+                        About
                     </li>
                 </ul>
             </div>
@@ -44,11 +44,11 @@ export default function Navbar() {
                     <li onClick={scrollToHome} className="relative text-3xl text-[#FCCA46]">
                         Home
                     </li>
-                    <li onClick={scrollToAbout} className="relative text-3xl text-[#FCCA46]">
-                        About
-                    </li>
                     <li onClick={scrollToProjects} className="relative text-3xl text-[#FCCA46]">
                         Projects
+                    </li>
+                    <li onClick={scrollToAbout} className="relative text-3xl text-[#FCCA46]">
+                        About
                     </li>
                 </ul>
             </div>
