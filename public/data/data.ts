@@ -44,8 +44,8 @@ export const data = {
             bgColor: "blue"
         },
         {
-            id: "newForum",
-            title: "TypeScript Forum",
+            id: "TSForum",
+            title: "Forum #2",
             description: "MERN Fullstack Application developed using Next.JS, TailwindCSS, Node & MongoDB",
             picture: newForumImage,
             role: "Development, Design",

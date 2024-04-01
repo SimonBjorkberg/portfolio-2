@@ -21,7 +21,7 @@ export default function Info() {
             techStack.forEach((elem) => {
                 elem.classList.add('show-tech')
             })
-        }, 1700);
+        }, 1900);
     })
 
     const scrollToProjects = () => {
