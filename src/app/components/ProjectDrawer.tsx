@@ -8,7 +8,7 @@ export default function ProjectDrawer({ setX }: any) {
 
     return (
         <div className="h-full flex flex-col items-center justify-between overflow-y-auto">
-            <main className="pt-5 px-5 flex flex-col justify-between h-full">
+            <main className="pt-5 px-5 flex flex-col justify-between">
                 <div>
                     <h1 className="text-3xl">{selectedProject.title}</h1>
                     <div>
