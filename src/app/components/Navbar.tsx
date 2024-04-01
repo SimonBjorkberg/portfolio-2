@@ -23,13 +23,13 @@ export default function Navbar() {
             <div className="hidden md:flex items-center justify-between w-full max-w-[1080px]">
                 <h1 className="flex h-fit w-full text-3xl text-[#FE7F2D]">Simon.dev</h1>
                 <ul className="flex h-fit gap-5">
-                    <li onClick={scrollToHome} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
+                    <li onClick={scrollToHome} className="text-xl transition-all duration-300 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         Home
                     </li>
-                    <li onClick={scrollToProjects} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
+                    <li onClick={scrollToProjects} className="text-xl transition-all duration-300 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         Projects
                     </li>
-                    <li onClick={scrollToAbout} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
+                    <li onClick={scrollToAbout} className="text-xl transition-all duration-300 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         About
                     </li>
                 </ul>
@@ -38,7 +38,7 @@ export default function Navbar() {
                 <h1 className="flex h-fit w-full text-2xl text-[#FE7F2D]">Simon.dev</h1>
                 <Image onClick={() => setToggleMenu(true)} className="hover:cursor-pointer w-7" src={hamburger} alt="" />
             </div>
-            <div className={`flex absolute w-full right-0 top-0 bg-[#50343c] border-b border-[#FCCA46] transition-all duration-1000 ease-in-out ${toggleMenu ? "translate-y-0 blur-0 shadow-md shadow-[#FCCA46]" : "translate-y-[-300px] blur-sm"}`}>
+            <div className={`flex absolute w-full right-0 top-0 bg-[#50343c] border-b border-[#FCCA46] transition-all duration-1000 ease-in-out ${toggleMenu ? "translate-y-0 blur-0 shadow-sm shadow-[#FCCA46]" : "translate-y-[-300px] blur-sm"}`}>
                 <p onClick={() => setToggleMenu(false)} className="absolute top-0 right-0 text-xl w-fit h-fit my-[10px] mx-4 text-[#FCCA46] hover:cursor-pointer">X</p>
                 <ul className="flex flex-col w-full justify-center items-center gap-[10px] py-3">
                     <li onClick={scrollToHome} className="relative text-2xl text-[#FCCA46]">
