@@ -43,7 +43,7 @@ export default function Projects() {
                     {data.projects.map((project, i) => {
                         return <ProjectContainer setX={setX} key={i} project={project} />
                     })}
-                    <div className={`top-0 right-0 h-dvh bg-[#121f27] transition-all duration-1000 z-10 ${x ? "md:w-[500px] w-full fixed" : "w-0 fixed"}`}>
+                    <div className={`top-0 right-0 h-dvh bg-[#121f27] transition-all duration-1000 z-10 ${x ? "md:w-[500px] max-w-[500px] w-full fixed" : "w-0 fixed"}`}>
                         {show && <ProjectDrawer setX={setX} />}
                     </div>
                 </div>

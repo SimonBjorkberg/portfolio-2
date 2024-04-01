@@ -6,8 +6,6 @@ export default function ProjectDrawer({ setX }: any) {
 
     const { selectedProject }: any = useContext(ProjectContext)
 
-    console.log(selectedProject)
-
     return (
         <div className="h-full flex flex-col items-center justify-between overflow-y-auto">
             <main className="pt-5 px-5 flex flex-col justify-between h-full">
