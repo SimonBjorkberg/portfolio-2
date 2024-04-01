@@ -6,6 +6,8 @@ export default function ProjectDrawer({ setX }: any) {
 
     const { selectedProject }: any = useContext(ProjectContext)
 
+    console.log(selectedProject)
+
     return (
         <div className="h-full flex flex-col items-center justify-between overflow-y-auto">
             <main className="pt-5 pb-10 px-5 flex flex-col justify-between h-full">
@@ -23,7 +25,7 @@ export default function ProjectDrawer({ setX }: any) {
                         <div className="w-full">
                             <h1 className="text-[20px] mb-5">{selectedProject?.info.title}</h1>
                             <div className="overflow-hidden transition-all duration-1000 relative">
-                                <img src={selectedProject?.info.image} alt="" className="rounded-sm h-[170px] object-cover object-left transition-all duration-1000 w-full" />
+                                <img src={selectedProject?.info.image.src} alt="" className="rounded-sm h-[170px] object-cover object-left transition-all duration-1000 w-full" />
                             </div>
                             <p className="mt-5 text-[12px] text-sm">{selectedProject?.info.description}</p>
                         </div>
