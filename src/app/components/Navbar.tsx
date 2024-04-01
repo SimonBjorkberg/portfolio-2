@@ -36,18 +36,18 @@ export default function Navbar() {
             </div>
             <div className="flex md:hidden items-center justify-between w-full max-w-[1080px]">
                 <h1 className="flex h-fit w-full text-2xl text-[#FE7F2D]">Simon.dev</h1>
-                <Image onClick={() => setToggleMenu(true)} className="hover:cursor-pointer" src={hamburger} alt="" />
+                <Image onClick={() => setToggleMenu(true)} className="hover:cursor-pointer w-7" src={hamburger} alt="" />
             </div>
             <div className={`flex absolute w-full right-0 top-0 bg-[#50343c] border-b border-[#FCCA46] transition-all duration-1000 ease-in-out ${toggleMenu ? "translate-y-0 blur-0 shadow-md shadow-[#FCCA46]" : "translate-y-[-300px] blur-sm"}`}>
                 <p onClick={() => setToggleMenu(false)} className="absolute top-0 right-0 text-xl w-fit h-fit my-[10px] mx-4 text-[#FCCA46] hover:cursor-pointer">X</p>
                 <ul className="flex flex-col w-full justify-center items-center gap-[10px] py-3">
-                    <li onClick={scrollToHome} className="relative text-3xl text-[#FCCA46]">
+                    <li onClick={scrollToHome} className="relative text-2xl text-[#FCCA46]">
                         Home
                     </li>
-                    <li onClick={scrollToProjects} className="relative text-3xl text-[#FCCA46]">
+                    <li onClick={scrollToProjects} className="relative text-2xl text-[#FCCA46]">
                         Projects
                     </li>
-                    <li onClick={scrollToAbout} className="relative text-3xl text-[#FCCA46]">
+                    <li onClick={scrollToAbout} className="relative text-2xl text-[#FCCA46]">
                         About
                     </li>
                 </ul>
