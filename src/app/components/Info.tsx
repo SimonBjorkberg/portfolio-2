@@ -21,7 +21,7 @@ export default function Info() {
             techStack.forEach((elem) => {
                 elem.classList.add('show-tech')
             })
-        }, 1900);
+        }, 2000);
     })
 
     const scrollToProjects = () => {
@@ -31,18 +31,18 @@ export default function Info() {
 
     return (
         <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center py-10 justify-between snap-start overflow-y-auto">
-            <div className="flex flex-col justify-around h-full max-h-[500px] md:pt-32 pt-10 w-[97%] sm:w-fit">
-                <div className="flex flex-col items-start self-center p-0 w-full">
-                    <h1 className="md:leading-[50px] title-font leading-[40px] sm:max-w-[500px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
+            <div className="flex flex-col justify-around h-full max-h-[500px] md:pt-32 pt-10 w-[97%] max-w-fit">
+                <div className="flex flex-col items-start p-0 w-full">
+                    <h1 className="md:leading-[50px] title-font leading-[40px] max-w-[500px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={10} />
                     </div>
                 </div>
-                <div className="flex flex-col sm:max-w-[500px] max-w-[400px]">
-                    <p className="flex items-center mr-[50px] pb-3 icon hide-p">
+                <div className="flex flex-col max-w-fit w-[97%]">
+                    <p className="flex items-center pb-3 icon hide-p">
                         Tech Stack:
                     </p>
-                    <ul id="this" className="w-fit sm:flex sm:flex-wrap grid grid-cols-6 gap-5 tech-icons">
+                    <ul id="this" className="w-fit flex flex-wrap gap-5 tech-icons">
                         {icons && icons.map((icon, i) => {
                             return <li className="flex w-[36px] h-[36px] icon hide-tech" key={i}><Image src={icon} alt="icon" /></li>
                         })}
