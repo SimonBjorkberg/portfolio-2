@@ -104,7 +104,7 @@ export const data = {
         {
             id: "ecommerce",
             title: "E-Commerce",
-            description: "MERN dynamic application developed using React, TailwindCSS, Node, MongoDB & Stripe",
+            description: "MERN application developed using React, TailwindCSS, Node, MongoDB & Stripe",
             picture: ecommerceImage,
             role: "Development, Design",
             year: "2023",
