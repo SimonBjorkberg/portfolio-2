@@ -109,3 +109,7 @@ body {
 .title-font {
   font-size: clamp(2.8125rem, 2.261rem + 2.2059vw, 3.75rem);
 }
+
+.projects-title-font {
+  font-size: clamp(1.875rem, 1.2132rem + 2.6471vw, 3rem);
+}

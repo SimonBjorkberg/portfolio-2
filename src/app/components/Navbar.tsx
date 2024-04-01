@@ -7,21 +7,16 @@ export default function Navbar() {
 
     const scrollToHome = () => {
         const home = document.getElementById("home")
-        if (home)home.scrollIntoView();
+        if (home) home.scrollIntoView();
     }
     const scrollToProjects = () => {
         const projects = document.getElementById("projects")
-        if (projects)projects.scrollIntoView();
+        if (projects) projects.scrollIntoView();
     }
     const scrollToAbout = () => {
         const about = document.getElementById("about")
-        if (about)about.scrollIntoView();
+        if (about) about.scrollIntoView();
     }
-    const scrollToContact = () => {
-        const contact = document.getElementById("contact")
-        if (contact)contact.scrollIntoView();
-    }
-
 
     return (
         <nav className="pixelify-sans-font fixed flex z-10 w-full py-2 px-4 justify-center">
@@ -31,14 +26,11 @@ export default function Navbar() {
                     <li onClick={scrollToHome} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         Home
                     </li>
-                    <li onClick={scrollToProjects} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
-                        Projects
-                    </li>
                     <li onClick={scrollToAbout} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
                         About
                     </li>
-                    <li onClick={scrollToContact} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
-                        Contact
+                    <li onClick={scrollToProjects} className="text-xl transition-all duration-500 ease-in-out text-[#FE7F2D] hover:text-[#FCCA46] hover:cursor-pointer">
+                        Projects
                     </li>
                 </ul>
             </div>
@@ -52,14 +44,11 @@ export default function Navbar() {
                     <li onClick={scrollToHome} className="relative text-3xl text-[#FCCA46]">
                         Home
                     </li>
-                    <li onClick={scrollToProjects} className="relative text-3xl text-[#FCCA46]">
-                        Projects
-                    </li>
                     <li onClick={scrollToAbout} className="relative text-3xl text-[#FCCA46]">
                         About
                     </li>
-                    <li onClick={scrollToContact} className="relative text-3xl text-[#FCCA46]">
-                        Contact
+                    <li onClick={scrollToProjects} className="relative text-3xl text-[#FCCA46]">
+                        Projects
                     </li>
                 </ul>
             </div>

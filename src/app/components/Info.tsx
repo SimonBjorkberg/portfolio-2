@@ -24,9 +24,14 @@ export default function Info() {
         }, 1700);
     })
 
+    const scrollToProjects = () => {
+        const projects = document.getElementById('projects')
+        if (projects)projects.scrollIntoView()
+    }
+
     return (
-        <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center md:pt-24 pt-20 pb-4 md:pb-14 px-2 md:px-0 justify-between snap-start">
-            <div className="flex flex-col gap-20 md:pt-20 w-[97%] sm:w-fit">
+        <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center py-10 justify-between snap-start">
+            <div className="flex flex-col gap-20 md:pt-32 pt-20 w-[97%] sm:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
                     <h1 className="md:leading-[50px] title-font leading-[40px] sm:max-w-[500px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
@@ -53,8 +58,8 @@ export default function Info() {
                         <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="hover:stroke-[#FCCA46] stroke-[#FE7F2D] transition-all duration-200"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                     </Link>
                 </ul>
-                <svg fill="none" stroke="#FE7F2D" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg" className="self-center"><path d="m11.9995 16.8001c-.7 0-1.4-.27-1.93-.8l-6.51997-6.51996c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l6.51997 6.51996c.48.48 1.26.48 1.74 0l6.52-6.51996c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-6.52 6.51996c-.53.53-1.23.8-1.93.8z" fill="#292d32" /></svg>
+                <svg onClick={scrollToProjects} fill="none" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg" className="self-center hover:cursor-pointer stroke-[#FE7F2D] hover:stroke-[#FCCA46]"><path d="m11.9995 16.8001c-.7 0-1.4-.27-1.93-.8l-6.51997-6.51996c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l6.51997 6.51996c.48.48 1.26.48 1.74 0l6.52-6.51996c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-6.52 6.51996c-.53.53-1.23.8-1.93.8z" fill="#292d32" /></svg>
             </div>
         </section>
     )
-}
+} 

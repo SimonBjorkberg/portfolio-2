@@ -5,7 +5,6 @@ import Info from "./components/Info";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import About from "./components/About";
-import Contact from "./components/Contact";
 
 export default function Home() {
 
@@ -16,10 +15,8 @@ export default function Home() {
         <Info />
         <Projects />
         <About />
-        <Contact />
         <Script src="/js/index.js" />
       </main>
     </>
-
   );
 }
