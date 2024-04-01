@@ -20,7 +20,7 @@ export default function Projects() {
                 <h1 className="projects-title-font mb-10 pixelify-sans-font">My Projects</h1>
                 <div className="grid md:grid-cols-3 grid-cols-2 md:gap-2 gap-1 w-fit h-fit">
                     {data.projects.map((project, i) => {
-                        return (<div key={i} className={`project hide-project-${i + 1} w-[full] max-w-[250px] md:rounded-md md:p-5 py-1 h-[190px] md:h-[220px] flex flex-col bg-[#121f27] hover:bg-[#172530] hover:cursor-pointer transition-all duration-100 justify-between`}>
+                        return (<div key={i} className={`project hide-project w-[full] max-w-[250px] md:rounded-md md:p-5 py-1 h-[190px] md:h-[220px] flex flex-col bg-[#121f27] hover:bg-[#172530] hover:cursor-pointer transition-all duration-100 justify-between`}>
                             <p className="text-lg pt-2 px-2 md:px-0 md:pt-0 font-bold pixelify-sans-font text-[#FCCA46]">{project.title}</p>
                             <p className="w-full px-2 md:px-0 overflow-hidden text-left font-light text-neutral-500">{project.description}</p>
                             <ul className="flex gap-2 p-2 md:px-0">
