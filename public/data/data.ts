@@ -28,7 +28,7 @@ export const data = {
         {
             id: "portfolio",
             title: "Portfolio",
-            description: "First iteration of my personal portfolio developed using React, TailwindCSS & CSS Animations",
+            description: "Personal portfolio developed using React, TailwindCSS & CSS Animations",
             picture: portfolioImage,
             role: "Development, Design",
             year: "2024",
@@ -46,7 +46,7 @@ export const data = {
         {
             id: "TSForum",
             title: "Forum #2",
-            description: "MERN Fullstack Application developed using Next.JS, TailwindCSS, Node & MongoDB",
+            description: "MERN Application developed using Next.JS, TailwindCSS, Node & MongoDB",
             picture: newForumImage,
             role: "Development, Design",
             year: "2024",
@@ -66,7 +66,7 @@ export const data = {
         {
             id: "pokemonApi",
             title: "Pokedex",
-            description: "MERN Fullstack Application developed using Next.JS, TailwindCSS, Node & MongoDB",
+            description: "MERN Application developed using Next.JS, TailwindCSS, Node & MongoDB",
             picture: pokeDexImage,
             role: "Development, Design",
             year: "2024",
@@ -85,7 +85,7 @@ export const data = {
         {
             id: "klatterdomen",
             title: "Klätterdomen",
-            description: "Front-End static page, developed using React, TailwindCSS & animations with SASS",
+            description: "Front-End static page, developed using React, TailwindCSS & CSS Animations",
             picture: klatterdomenImage,
             role: "Development, Design",
             year: "2023",
@@ -123,7 +123,7 @@ export const data = {
         {
             id: "forum",
             title: "Forum",
-            description: "Handlebars Fullstack application developed using HBS, TailwindCSS, Node & MongoDB",
+            description: "HBS application developed using HBS, TailwindCSS, Node & MongoDB",
             picture: forumImage,
             role: "Development",
             year: "2023",
