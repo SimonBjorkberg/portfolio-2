@@ -7,14 +7,25 @@ const observerOptions = {
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('show')
+            entry.target.classList.add('show-project')
         }
     })
 }, observerOptions)
 
-const hiddenElements = document.querySelectorAll('.hide');
-hiddenElements.forEach((elem) => observer.observe(elem))
+const hiddenElementOne = document.querySelectorAll('.hide-project-1');
+hiddenElementOne.forEach((elem) => observer.observe(elem))
 
+const hiddenElementTwo = document.querySelectorAll('.hide-project-2');
+hiddenElementTwo.forEach((elem) => observer.observe(elem))
 
-let vh = window.innerHeight * 0.01
-document.documentElement.style.setProperty('--vh', `${vh}px`)
+const hiddenElementThree = document.querySelectorAll('.hide-project-3');
+hiddenElementThree.forEach((elem) => observer.observe(elem))
+
+const hiddenElementFour = document.querySelectorAll('.hide-project-4');
+hiddenElementFour.forEach((elem) => observer.observe(elem))
+
+const hiddenElementFive = document.querySelectorAll('.hide-project-5');
+hiddenElementFive.forEach((elem) => observer.observe(elem))
+
+const hiddenElementSix = document.querySelectorAll('.hide-project-6');
+hiddenElementSix.forEach((elem) => observer.observe(elem))
