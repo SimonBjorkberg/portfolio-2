@@ -31,7 +31,7 @@ export default function Info() {
 
     return (
         <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center py-10 justify-between snap-start overflow-y-auto">
-            <div className="flex flex-col gap-20 md:pt-32 pt-20 w-[97%] sm:w-fit">
+            <div className="flex flex-col gap-20 md:pt-32 pt-10 w-[97%] sm:w-fit">
                 <div className="flex flex-col items-start self-center p-0 w-full">
                     <h1 className="md:leading-[50px] title-font leading-[40px] sm:max-w-[500px] max-w-[400px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
