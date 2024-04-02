@@ -7,7 +7,7 @@ export default function ProjectDrawer({ setX }: any) {
     const { selectedProject }: any = useContext(ProjectContext)
 
     return (
-        <div className="h-full flex flex-col items-center justify-between overflow-y-auto">
+        <div className="h-full flex flex-col items-center justify-between overflow-y-auto open-sans-300">
             <main className="pt-5 px-5 flex flex-col">
                 <div>
                     <h1 className="text-3xl">{selectedProject.title}</h1>

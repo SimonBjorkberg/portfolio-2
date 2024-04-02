@@ -33,7 +33,7 @@ export default function Info() {
         <section id="home" className="bg-[#50343c] flex flex-col bg-dot-grid h-dvh content-start items-center py-10 justify-between snap-start overflow-y-auto">
             <div className="flex flex-col justify-around h-full max-h-[500px] md:pt-32 pt-10 w-[97%] max-w-fit">
                 <div className="flex flex-col items-start p-0 w-full">
-                    <h1 className="md:leading-[50px] title-font leading-[40px] max-w-[500px]">Front-End React <span className="breathing-title">Developer</span></h1>
+                    <h1 className="title-font md:leading-[60px] leading-[45px] max-w-[500px]">Front-End React <span className="breathing-title">Developer</span></h1>
                     <div className="pt-10 max-w-[500px] text-[18px] h-[121px]">
                         <ReactTyped strings={["I am Simon Björkberg, Ironhack Graduate with an interest in all things related to Programming."]} typeSpeed={10} />
                     </div>
