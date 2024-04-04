@@ -83,8 +83,8 @@ export default function About() {
             </main>
             <div className="justify-start flex max-w-[1080px] w-full">
                 <div className="flex gap-2 py-10 px-5 flex-wrap">
-                    {icons.map((icon) => {
-                        return <Image className="w-7" src={icon} alt="" />
+                    {icons.map((icon, i) => {
+                        return <Image key={i} className="w-7" src={icon} alt="" />
                     })}
                 </div>
             </div>
