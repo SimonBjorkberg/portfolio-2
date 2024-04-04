@@ -59,17 +59,17 @@ export default function About() {
                         </div>
                     </div>
                     <div className="flex flex-row p-2">
-                        <p className="min-w-[110px] h-fit text-left text-sm p-[2px] text-neutral-300">2017 - 2019</p>
-                        <div>
-                            <h1 className="font-semibold text-[#FE7F2D]">Freelance Website</h1>
-                            <p className="text-sm text-neutral-300">Developer, Technical Support - At the end of high school a website was created by me and 2 classmates to buy & sell virtual products for profit.</p>
-                        </div>
-                    </div>
-                    <div className="flex flex-row p-2">
                         <p className="min-w-[110px] h-fit text-left text-sm p-[2px] text-neutral-300">2023</p>
                         <div>
                             <h1 className="font-semibold text-[#FE7F2D]">Ironhack Bootcamp</h1>
                             <p className="text-sm text-neutral-300">Intensive Web Development course containing all the information of a 2 year university college education condensed into 6 months.</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row p-2">
+                        <p className="min-w-[110px] h-fit text-left text-sm p-[2px] text-neutral-300">2017 - 2019</p>
+                        <div>
+                            <h1 className="font-semibold text-[#FE7F2D]">Freelance Website</h1>
+                            <p className="text-sm text-neutral-300">Developer, Technical Support - At the end of high school a website was created by me and 2 classmates to buy & sell virtual products for profit.</p>
                         </div>
                     </div>
                     <div className="flex flex-row p-2">
