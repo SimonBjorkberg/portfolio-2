@@ -130,10 +130,8 @@ body {
   transition: all 1s;
 }
 
-
 .show-project {
   opacity: 1;
-  transform: translateX(0) translateY(0);
   filter: blur(0);
 }
 
