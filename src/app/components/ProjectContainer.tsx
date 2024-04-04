@@ -36,7 +36,7 @@ export default function ProjectContainer({ project, setX }: Props) {
                     <svg onClick={() => { setSelectedProject(project); setX(true) }} className={`fill-[#FCCA46] hover:fill-[#FE7F2D] rotate-180 w-5 absolute mt-1 top-0 right-0 transition-all duration-300 ${isHovered ? "opacity-1" : "opacity-0"}`} viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 504c-137 0-248-111-248-248s111-248 248-248 248 111 248 248-111 248-248 248zm28.9-143.6-75.5-72.4h182.6c13.3 0 24-10.7 24-24v-16c0-13.3-10.7-24-24-24h-182.6l75.5-72.4c9.7-9.3 9.9-24.8.4-34.3l-11-10.9c-9.4-9.4-24.6-9.4-33.9 0l-132.7 132.6c-9.4 9.4-9.4 24.6 0 33.9l132.7 132.7c9.4 9.4 24.6 9.4 33.9 0l11-10.9c9.5-9.5 9.3-25-.4-34.3z" /></svg>
                     <p className="text-lg px-0 font-bold pixelify-sans-font text-[#FCCA46]">{project.title}</p>
                 </div>
-                <p className="w-full px-0 text-left text-[16px] font-light text-neutral-500">{project.description}</p>
+                <p className="w-full px-0 text-left text-[16px] font-light text-neutral-400">{project.description}</p>
                 <ul className="flex gap-2 py-2 px-0">
                     {project.techs?.map((tech, i) => {
                         return <Image key={i} className="w-5 h-5 rounded-sm" src={tech} alt="" />
