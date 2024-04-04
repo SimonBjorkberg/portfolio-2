@@ -11,7 +11,6 @@ import pokemonInfoOne from '../images/pokemonInfoOne.png'
 import klatterdomenInfoOne from '../images/klatterdomenInfoOne.png'
 import ecommerceInfoOne from '../images/ecommerceInfoOne.png'
 import forumInfoOne from '../images/forumInfoOne.png'
-import dinoInfoOne from '../images/dinoInfoOne.png'
 
 import HBSIcon from '../svgs/Project-svgs/handlebars-original.svg'
 import TSIcon from '../svgs/Project-svgs/typescript-icon.svg'
@@ -20,6 +19,8 @@ import reactIcon from '../svgs/Project-svgs/react.svg'
 import nextIcon from '../svgs/Project-svgs/next-js.svg'
 import tailwindIcon from '../svgs/Project-svgs/tailwind-css.svg'
 import cssIcon from '../svgs/Project-svgs/file-type-css.svg'
+import htmlIcon from '../svgs/file-type-html.svg'
+import githubIcon from '../svgs/github.svg'
 import apiIcon from '../svgs/Project-svgs/api.svg'
 
 
@@ -141,22 +142,4 @@ export const data = {
         },
     ],
     technologoies: ["React", "Next.JS", "TypeScript", "MongoDB", "Node.jS", "HBS", "Express", "JWT", "Rest API", "Socket.IO", "SCSS", "TailwindCSS", "JavaScript", "CSS", "HTML", "Axios", "Mongoose", "Cloudinary"],
-    maybe: {
-        id: "dinoGame",
-        title: "Dino Game",
-        description: "JS canvas game developed using JavaScript classes, HTML DOM Manipulation & CSS",
-        picture: "",
-        role: "Development, Design",
-        year: "2023",
-        githubLink: "https://github.com/SimonBjorkberg/IronhackProjectOne",
-        deployLink: "",
-        technologies: ["JavaScript", "CSS", "HTML"],
-        info:
-        {
-            image: dinoInfoOne,
-            title: "Class Madness",
-            description: "It proved really difficult to work with classes the first time around, Being able to fully understand how everything worked in cohesion proved to be a very difficult but exciting challenge. Luke & I got to learn how methods within classes worked while experimenting heavily with the Canvas API, everything apart from the artwork was built from scratch & this was our first deep dive into building our own JavaScript projects. We quickly realised the importance of writing clean and readable code since it became messy way faster than we initially thought, this lead to a few refactors to clean everything up which provided us with a very important learning experience.",
-        },
-        bgColor: "orange"
-    },
 }

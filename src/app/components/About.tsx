@@ -1,8 +1,24 @@
-import { useState } from "react"
+import Image from "next/image";
+import NextIcon from '../../../public/svgs/next-js.svg'
+import TSIcon from '../../../public/svgs/typescript-icon.svg'
+import JSIcon from '../../../public/svgs/javascript-js.svg'
+import TailWindIcon from '../../../public/svgs/tailwind-css.svg'
+import CSSIcon from '../../../public/svgs/file-type-css.svg'
+import HtmlIcon from '../../../public/svgs/file-type-html.svg'
+import gitIcon from '../../../public/svgs/git.svg'
+import reactIcon from '../../../public/svgs/react.svg'
+import nodeIcon from '../../../public/svgs/node-js.svg'
+import githubIcon from '../../../public/svgs/github-original-wordmark.svg'
+import mongoDbIcon from '../../../public/svgs/mongodb.svg'
+import HBSIcon from '../../../public/svgs/handlebars-original.svg'
+import SCSSIcon from '../../../public/svgs/file-type-scss2.svg'
+import APIIcon from '../../../public/svgs/api.svg'
+import cloudinaryIcon from '../../../public/svgs/cloudinary.svg'
+import stripeIcon from '../../../public/svgs/stripe.svg'
 
 export default function About() {
 
-    const [info, setInfo] = useState("experience")
+    const icons = [TSIcon, JSIcon, reactIcon, NextIcon, TailWindIcon, CSSIcon, HtmlIcon, gitIcon, nodeIcon, githubIcon, mongoDbIcon, HBSIcon, SCSSIcon, APIIcon, cloudinaryIcon, stripeIcon]
 
     const scrollToProjects = () => {
         const projects = document.getElementById('projects')
@@ -10,11 +26,11 @@ export default function About() {
     }
 
     return (
-        <section id="about" className="h-dvh bg-[#50343c] w-full snap-start flex content-start items-center pb-5 flex-col justify-between overflow-hidden roboto-thin">
+        <section id="about" className="h-dvh bg-[#50343c] w-full snap-start flex flex-col items-center overflow-hidden roboto-thin">
             <div className="py-10">
                 <svg onClick={scrollToProjects} fill="none" height="36" viewBox="0 0 24 24" width="36" xmlns="http://www.w3.org/2000/svg" className="self-center hover:cursor-pointer stroke-[#FE7F2D] hover:stroke-[#FCCA46] rotate-180"><path d="m11.9995 16.8001c-.7 0-1.4-.27-1.93-.8l-6.51997-6.51996c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l6.51997 6.51996c.48.48 1.26.48 1.74 0l6.52-6.51996c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-6.52 6.51996c-.53.53-1.23.8-1.93.8z" fill="#292d32" /></svg>
             </div>
-            <main className="h-full w-full flex md:flex-row flex-col max-w-[1080px] gap-5 px-5 md:pt-20 overflow-y-auto">
+            <main className="w-full flex md:flex-row flex-col max-w-[1080px] gap-5 px-5 xl:pt-32 overflow-y-auto">
                 <div className="md:w-1/2 flex flex-col">
                     <h1 className="font-semibold text-[#FE7F2D]">
                         About me
@@ -65,6 +81,13 @@ export default function About() {
                     </div>
                 </div>
             </main>
+            <div className="justify-start flex max-w-[1080px] w-full">
+                <div className="flex gap-2 py-10 px-5 flex-wrap">
+                    {icons.map((icon) => {
+                        return <Image className="w-7" src={icon} alt="" />
+                    })}
+                </div>
+            </div>
         </section>
     )
 }
