@@ -26,7 +26,7 @@ export default function About() {
                     </p>
                     <p className="my-5 text-sm">
                         The website in question created enough revenue for me to be happy & content but eventually it stagnated to the point where we had to shut it down. I started looking for opportunities in my other interests & found myself a job at my local Climbing gym.
-                        There I got the position of Climbing Instructor & Cashier, a prestigeless position where you get to take care of the gym, it's customers & all that come with it.
+                        There I got the position of Climbing Instructor & Cashier, a prestigeless position where you get to take care of the gym, its customers & all that come with it.
                     </p>
                     <p className="text-sm">
                         Late 2022 I started to explore development as a permanent career path as this had been my plan since 2018, I felt that I had to reinforce my knowledge on core concepts in addition to getting a certificate/degree that could solidify what I knew. I got
@@ -39,7 +39,7 @@ export default function About() {
                         <p className="min-w-[110px] h-fit text-left text-sm p-[2px] text-neutral-300">2022 - Current</p>
                         <div>
                             <h1 className="font-semibold text-[#FE7F2D]">Klätterdomen - Current Position</h1>
-                            <p className="text-sm text-neutral-300">Climbing Instructor, Cashier - A prestigeless position where I'm tasked with taking care of the gym as a whole and it's customers.</p>
+                            <p className="text-sm text-neutral-300">Climbing Instructor, Cashier - A prestigeless position where I am tasked with taking care of the gym as a whole and its customers.</p>
                         </div>
                     </div>
                     <div className="flex flex-row p-2">
