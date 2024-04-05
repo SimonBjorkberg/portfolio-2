@@ -130,6 +130,17 @@ body {
   animation-delay: 2s;
 }
 
+.hide-section {
+  filter: blur(5px);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show-section {
+  filter: blur(0);
+  opacity: 1;
+}
+
 .title-font {
   font-size: clamp(2.8125rem, 2.261rem + 2.2059vw, 3.75rem);
 }
