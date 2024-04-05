@@ -39,7 +39,7 @@ export default function Projects() {
             </div>
             <main className="max-w-[1080px] flex items-center justify-center flex-col font-sans">
                 <h1 className="projects-title-font mb-2 md:mb-10">Projects</h1>
-                <div className="grid md:grid-cols-3 grid-cols-2 md:gap-2 gap-1 px-1 overflow-hidden">
+                <div className="grid md:grid-cols-3 grid-cols-2 gap-1 px-1 overflow-hidden">
                     {data.projects.map((project, i) => {
                         return <ProjectContainer setX={setX} key={i} project={project} />
                     })}

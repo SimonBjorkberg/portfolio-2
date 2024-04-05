@@ -1,6 +1,6 @@
 import Image from "next/image";
 import hamburger from '../../../public/svgs/hamburger.svg'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false)
